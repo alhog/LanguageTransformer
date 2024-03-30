@@ -80,6 +80,18 @@ The semantics of a language define the meaning of words, phrases, and sentences.
 
 **Phrase Meanings:** Define what each type of phrase in your language means. This could involve defining how the meanings of individual words combine to form the meaning of the phrase.
 
+**Defining phrase meanings is a key part of creating the semantics of your new language.**
+
+*Here are some steps you might consider:*
+
+1. **Define Phrase Formation Rules**: Decide on the rules for how phrases are formed from words. This could involve defining valid sequences of words, minimum and maximum phrase lengths, etc. You might also want to consider whether certain combinations of words have special meanings.
+
+2. **Define Phrase Types**: Decide on the different types of phrases that will exist in your language (e.g., noun phrases, verb phrases, prepositional phrases, etc.). Define the rules for how these different types of phrases can be formed and used.
+
+3. **Define Phrase Functions**: Decide on the functions that phrases can serve in a sentence. For example, a noun phrase can serve as the subject of a sentence, an object of a verb, or the complement of a preposition.
+
+4. **Handle Ambiguity**: Some phrases may have multiple possible meanings. You'll need to decide how to handle these cases in your language. This could involve defining rules for choosing between multiple possible meanings, or it could involve allowing the ambiguity to remain.
+
 **Sentence Meanings:** Define what each type of sentence in your language means. This could involve defining how the meanings of individual phrases combine to form the meaning of the sentence.
 
 **Pragmatics:** Define how context can change the meaning of a word, phrase, or sentence. This could involve things like how the meaning can change based on the speaker, the listener, the time, the place, etc.
