@@ -124,6 +124,18 @@ The semantics of a language define the meaning of words, phrases, and sentences.
 
 **Ambiguity Resolution:** Define how ambiguities in meaning should be resolved. This could involve defining rules for choosing between multiple possible meanings, or it could involve allowing the ambiguity to remain.
 
+**Defining ambiguity resolution is a key part of creating the semantics of your new language. Ambiguity in language can occur at various levels, including word level (lexical ambiguity), phrase level, sentence level (syntactic ambiguity), and even at the discourse level.** 
+
+*Here are some steps you might consider:*
+
+1. **Lexical Ambiguity Resolution**: If a word has multiple meanings, you'll need to decide how to choose the correct meaning based on context. This could involve using the surrounding words, the overall topic of the conversation, or other factors.
+
+2. **Syntactic Ambiguity Resolution**: If a sentence or phrase can be parsed in multiple ways, you'll need to decide how to choose the correct parsing. This could involve using the surrounding sentences, the overall structure of the text, or other factors.
+
+3. **Anaphora Resolution**: Anaphora is when a word (like "he" or "it") refers back to another word or phrase. You'll need to decide how to determine what each anaphoric word refers to.
+
+4. **Ellipsis Resolution**: Ellipsis is when a word or phrase is left out because it can be inferred from context. You'll need to decide how to infer the missing words or phrases.
+
 ## **Create a Dictionary**: 
 A dictionary is a collection of words and their definitions. In the case of a new language, you would need to create a new dictionary that includes all of the words in your language and their definitions.
 
