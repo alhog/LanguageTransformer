@@ -1,0 +1,28 @@
+import unittest
+
+class TestParser(unittest.TestCase):
+    def setUp(self):
+        # Initialize a parser with a simple grammar
+        self.parser = Parser(Grammar())
+
+    def test_tokenize(self):
+        # Test the tokenize function
+        self.assertEqual(self.parser.tokenize('Hello, world!'), ['Hello,', 'world!'])
+
+    def test_pos_tag(self):
+        # Test the pos_tag function
+        # This is a placeholder and should be replaced with your own logic
+        self.assertEqual(self.parser.pos_tag(['Hello,', 'world!']), [('noun', 'Hello,'), ('noun', 'world!')])
+
+    def test_parse(self):
+        # Test the parse function
+        # This is a placeholder and should be replaced with your own logic
+        self.assertEqual(self.parser.parse([('noun', 'Hello,'), ('noun', 'world!')]), [('noun', 'Hello,'), ('noun', 'world!')])
+
+    def test_semantic_analysis(self):
+        # Test the semantic_analysis function
+        # This is a placeholder and should be replaced with your own logic
+        self.assertEqual(self.parser.semantic_analysis([('noun', 'Hello,'), ('noun', 'world!')]), [('noun', 'Hello,'), ('noun', 'world!')])
+
+if __name__ == '__main__':
+    unittest.main()
