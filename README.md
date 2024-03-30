@@ -169,6 +169,20 @@ A dictionary is a collection of words and their definitions. In the case of a ne
 
 **Include Metadata:** For each word, you might also want to include additional information, such as its part of speech, its pronunciation, an example of its use in a sentence, etc.
 
+**Including metadata in your dictionary can provide additional information about each word, making the dictionary more useful and comprehensive.** 
+
+*Here are some types of metadata you might consider:*
+
+1. **Part of Speech**: This indicates whether a word is a noun, verb, adjective, adverb, etc. It can help in understanding how the word is used in sentences.
+
+2. **Pronunciation**: This provides information on how the word should be pronounced. It could be in the form of phonetic spelling or an audio pronunciation.
+
+3. **Usage Examples**: Including examples of how the word is used in sentences can provide context that helps in understanding the word's meaning and usage.
+
+4. **Synonyms and Antonyms**: These can help in understanding the nuances of the word's meaning.
+
+5. **Etymology**: The origin and history of a word can provide interesting insights into its meaning.
+
 **Organize the Dictionary:** Decide how you want to organize your dictionary. This could be alphabetically, by topic, by part of speech, etc.
 
 ## **Create a Grammar**: 
