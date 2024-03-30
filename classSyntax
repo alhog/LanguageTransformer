@@ -1,0 +1,27 @@
+class Syntax:
+    def __init__(self):
+        # Define the alphabet
+        self.alphabet = set('abcdefghijklmnopqrstuvwxyz ')
+
+        # Define the rules for forming words
+        self.word_rules = {
+            'min_length': 1,
+            'max_length': 10,
+        }
+
+        # Define the rules for forming sentences
+        self.sentence_rules = {
+            'subject_first': True,
+            'use_punctuation': True,
+        }
+
+        # Define the rules for forming phrases
+        self.phrase_rules = {
+            'operator_precedence': {
+                '+': 1,
+                '-': 1,
+                '*': 2,
+                '/': 2,
+            },
+            'grouping_symbol': '()',
+        }
