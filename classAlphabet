@@ -1,0 +1,13 @@
+class Alphabet:
+    def __init__(self):
+        # Define the set of characters
+        self.characters = set('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
+
+        # Define the case sensitivity
+        self.case_sensitive = True
+
+        # Define the directionality
+        self.directionality = 'left-to-right'
+
+        # Define the use of accents and diacritics
+        self.accents = False
