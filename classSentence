@@ -1,0 +1,34 @@
+class Sentence:
+    def __init__(self, words):
+        # Store the words of the sentence
+        self.words = words
+
+    def is_valid(self):
+        # Check if the sentence is valid according to the language's rules
+        # This is a placeholder and should be replaced with your own logic
+        return True
+
+    def get_word_order(self):
+        # Determine the word order of the sentence
+        # This is a placeholder and should be replaced with your own logic
+        return 'SVO'
+
+    def get_punctuation(self):
+        # Determine the punctuation of the sentence
+        # This is a placeholder and should be replaced with your own logic
+        return '.'
+
+    def get_agreement(self):
+        # Determine the agreement between subjects and verbs, adjectives and nouns, etc.
+        # This is a placeholder and should be replaced with your own logic
+        return True
+
+    def get_negation(self):
+        # Determine the negation of the sentence
+        # This is a placeholder and should be replaced with your own logic
+        return False
+
+    def get_question(self):
+        # Determine if the sentence is a question
+        # This is a placeholder and should be replaced with your own logic
+        return False
