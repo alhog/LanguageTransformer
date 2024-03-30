@@ -1,0 +1,58 @@
+# bilingual_dictionary.py
+
+class BilingualDictionary:
+    def __init__(self):
+        self.mapping = {}  # Initialize an empty dictionary to store word pairs
+
+    def add_translation(self, new_word, existing_word):
+        """
+        Add a word pair to the bilingual dictionary.
+
+        Args:
+            new_word (str): Word in your new language.
+            existing_word (str): Equivalent word in the existing language.
+        """
+        self.mapping[new_word] = existing_word
+
+    def translate_to_existing(self, new_sentence):
+        """
+        Translate a sentence from your new language to the existing language.
+
+        Args:
+            new_sentence (str): Sentence in your new language.
+
+        Returns:
+            str: Translated sentence in the existing language.
+        """
+        # Implement translation logic using the dictionary
+        # Example: Look up each word in the mapping and construct the translated sentence
+        translated_words = [self.mapping.get(word, word) for word in new_sentence.split()]
+        return ' '.join(translated_words)
+
+    def translate_to_new(self, existing_sentence):
+        """
+        Translate a sentence from the existing language to your new language.
+
+        Args:
+            existing_sentence (str): Sentence in the existing language.
+
+        Returns:
+            str: Translated sentence in your new language.
+        """
+        # Implement reverse translation logic
+        # Example: Look up each word in the reverse mapping
+        reverse_mapping = {v: k for k, v in self.mapping.items()}
+        translated_words = [reverse_mapping.get(word, word) for word in existing_sentence.split()]
+        return ' '.join(translated_words)
+
+# Example usage:
+if __name__ == "__main__":
+    bilingual_dict = BilingualDictionary()
+    bilingual_dict.add_translation("apple", "pomme")  # Example word pair
+    new_sentence = "I love eating apples."
+    translated_existing = bilingual_dict.translate_to_existing(new_sentence)
+    print(f"Translated to existing language: {translated_existing}")
+
+    existing_sentence = "Elle mange une pomme."
+    translated_new = bilingual_dict.translate_to_new(existing_sentence)
+    print(f"Translated to new language: {translated_new}")
