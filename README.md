@@ -220,6 +220,18 @@ A grammar is a set of rules that specify how words and phrases can be combined t
 
 **Create a Parsing System:** A parsing system is used to analyze a sentence and determine its structure according to the grammar rules. This could involve creating a parse tree that represents the structure of the sentence.
 
+**Creating a parsing system for your new language involves several steps.** 
+
+*Here's a high-level overview of the process:*
+
+1. **Tokenization**: The first step in parsing a sentence is to break it down into individual words or tokens. This could be as simple as splitting the sentence on spaces, or it could involve more complex rules for handling punctuation, contractions, etc.
+
+2. **Part-of-Speech Tagging**: Next, you'll need to determine the part of speech for each token (noun, verb, adjective, etc.). This could be done using a predefined list of words for each part of speech, or it could involve machine learning techniques.
+
+3. **Parsing**: The main step is to take the list of tokens and their parts of speech and use your grammar rules to build a parse tree that represents the structure of the sentence. There are many algorithms for parsing, ranging from simple recursive descent parsers to more complex techniques like Earley parsing or chart parsing.
+
+4. **Semantic Analysis**: Once you have a parse tree, you can perform semantic analysis to determine the meaning of the sentence. This involves applying your semantic rules to the parse tree.
+
 **Handle Ambiguity:** Some sentences may have multiple valid parse trees according to the grammar rules. You’ll need to decide how to handle these cases. This could involve defining rules for choosing between multiple possible parse trees, or it could involve allowing the ambiguity to remain.
 
 **Test and Refine:** Once you have defined your grammar and created your parsing system, you will need to test it to make sure it works as expected. This could involve parsing a variety of sentences and checking that the parse trees match your expectations. Based on your testing, you may need to refine your grammar rules or your parsing system.
