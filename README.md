@@ -37,6 +37,18 @@ The syntax of a language defines the set of rules that specify how words, phrase
 
 **Define the Sentence Structure:** Decide on the rules for forming sentences from words. This could involve defining the order of subjects, verbs, and objects, the use of punctuation, etc.
 
+*Defining the sentence structure for your new language involves several considerations:*
+
+1. **Word Order**: Decide on the basic word order for your sentences. Common types are Subject-Verb-Object (SVO) like in English, Subject-Object-Verb (SOV) like in Japanese, or Verb-Subject-Object (VSO) like in Irish.
+
+2. **Punctuation**: Decide on the rules for using punctuation marks. This includes when to use periods, commas, question marks, etc.
+
+3. **Agreement**: Decide on the rules for agreement between subjects and verbs, adjectives and nouns, etc. For example, in English, subjects and verbs must agree in number (e.g., "he runs" vs. "they run").
+
+4. **Negation**: Decide on the rules for forming negative sentences. This could involve adding a word like "not", changing the verb form, etc.
+
+5. **Questions**: Decide on the rules for forming questions. This could involve changing the word order, using a different verb form, etc.
+
 **Define the Phrase Structure:** Decide on the rules for forming phrases or expressions. This could involve defining the order and grouping of words, the use of operators, etc.
 
 ## **Define the Semantics**: 
