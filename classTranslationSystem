@@ -1,0 +1,14 @@
+class TranslationSystem:
+    def __init__(self, dictionary, grammar):
+        # Store the bilingual dictionary and the grammar
+        self.dictionary = dictionary
+        self.grammar = grammar
+
+    def translate_word(self, word):
+        # Translate a word using the bilingual dictionary
+        return self.dictionary.get(word, "Unknown word")
+
+    def translate_sentence(self, sentence):
+        # Translate a sentence using the grammar rules
+        # This is a placeholder and should be replaced with your own logic
+        return ' '.join(self.translate_word(word) for word in sentence.split())
