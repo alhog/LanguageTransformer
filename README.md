@@ -51,6 +51,16 @@ The syntax of a language defines the set of rules that specify how words, phrase
 
 **Define the Phrase Structure:** Decide on the rules for forming phrases or expressions. This could involve defining the order and grouping of words, the use of operators, etc.
 
+*Defining the phrase structure for your new language involves several considerations:*
+
+1. **Phrase Formation Rules**: Decide on the rules for forming phrases from words. This could involve defining valid sequences of words, minimum and maximum phrase lengths, etc. You might also want to consider whether certain combinations of words have special meanings.
+
+2. **Function Words**: Decide on the function words that will exist in your language (e.g., prepositions, conjunctions, etc.). Define the rules for how these words can be used to form phrases.
+
+3. **Phrase Types**: Decide on the different types of phrases that will exist in your language (e.g., noun phrases, verb phrases, prepositional phrases, etc.). Define the rules for how these different types of phrases can be formed and used.
+
+4. **Modifiers**: Decide on the rules for how words can modify other words to form phrases. This could involve things like adding adjectives to nouns, adverbs to verbs, etc.
+
 ## **Define the Semantics**: 
 The semantics of a language define the meaning of words, phrases, and sentences. This includes things like the definition of words, the meaning of different grammatical structures, and the way that context can change the meaning of a sentence.
 
