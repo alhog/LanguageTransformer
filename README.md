@@ -94,6 +94,18 @@ The semantics of a language define the meaning of words, phrases, and sentences.
 
 **Sentence Meanings:** Define what each type of sentence in your language means. This could involve defining how the meanings of individual phrases combine to form the meaning of the sentence.
 
+**Defining sentence meanings is a key part of creating the semantics of your new language.** 
+
+*Here are some steps you might consider:*
+
+1. **Define Sentence Types**: Decide on the different types of sentences that will exist in your language (e.g., declarative, interrogative, imperative, exclamatory, etc.). Define the rules for how these different types of sentences can be formed and used.
+
+2. **Define Sentence Functions**: Decide on the functions that sentences can serve in a discourse. For example, a sentence can make a statement, ask a question, give an order, or express an emotion.
+
+3. **Handle Ambiguity**: Some sentences may have multiple possible meanings. You'll need to decide how to handle these cases in your language. This could involve defining rules for choosing between multiple possible meanings, or it could involve allowing the ambiguity to remain.
+
+4. **Contextual Factors**: The meaning of a sentence can often depend on contextual factors. You'll need to decide how to handle these cases in your language. This could involve things like how the meaning can change based on the speaker, the listener, the time, the place, etc.
+
 **Pragmatics:** Define how context can change the meaning of a word, phrase, or sentence. This could involve things like how the meaning can change based on the speaker, the listener, the time, the place, etc.
 
 **Ambiguity Resolution:** Define how ambiguities in meaning should be resolved. This could involve defining rules for choosing between multiple possible meanings, or it could involve allowing the ambiguity to remain.
