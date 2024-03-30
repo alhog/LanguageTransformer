@@ -25,6 +25,16 @@ The syntax of a language defines the set of rules that specify how words, phrase
   
 **Define the Words:** Decide on the rules for forming words from the alphabet. This could involve defining valid sequences of characters, minimum and maximum word lengths, etc.
 
+*Defining the words for your new language involves several considerations:*
+
+1. **Word Formation Rules**: Decide on the rules for forming words from the alphabet. This could involve defining valid sequences of characters, minimum and maximum word lengths, etc. You might also want to consider whether certain combinations of characters have special meanings.
+
+2. **Parts of Speech**: Decide on the different parts of speech that will exist in your language (e.g., nouns, verbs, adjectives, etc.). Define the rules for how these different types of words can be formed and used.
+
+3. **Morphology**: Decide on the rules for how words can change form to indicate different meanings. This could involve things like adding prefixes or suffixes, changing the word order, or altering the word itself.
+
+4. **Pronunciation**: Decide on the rules for how words should be pronounced. This could involve defining the sounds associated with each character or combination of characters, as well as rules for stress, intonation, etc.
+
 **Define the Sentence Structure:** Decide on the rules for forming sentences from words. This could involve defining the order of subjects, verbs, and objects, the use of punctuation, etc.
 
 **Define the Phrase Structure:** Decide on the rules for forming phrases or expressions. This could involve defining the order and grouping of words, the use of operators, etc.
