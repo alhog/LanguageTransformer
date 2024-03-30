@@ -139,6 +139,14 @@ The semantics of a language define the meaning of words, phrases, and sentences.
 ## **Create a Dictionary**: 
 A dictionary is a collection of words and their definitions. In the case of a new language, you would need to create a new dictionary that includes all of the words in your language and their definitions.
 
+**Word Collection:** Start by collecting a list of words that you want to include in your dictionary. These could be words that you’ve defined while creating the syntax and semantics of your language.
+
+**Define Meanings:** For each word, define its meaning. This could be a direct translation into another language, or it could be a description of the concept that the word represents.
+
+**Include Metadata:** For each word, you might also want to include additional information, such as its part of speech, its pronunciation, an example of its use in a sentence, etc.
+
+**Organize the Dictionary:** Decide how you want to organize your dictionary. This could be alphabetically, by topic, by part of speech, etc.
+
 ## **Create a Grammar**: 
 A grammar is a set of rules that specify how words and phrases can be combined to form sentences. In the case of a new language, you would need to create a new grammar that includes all of the grammatical rules of your language.
 
