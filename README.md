@@ -108,6 +108,20 @@ The semantics of a language define the meaning of words, phrases, and sentences.
 
 **Pragmatics:** Define how context can change the meaning of a word, phrase, or sentence. This could involve things like how the meaning can change based on the speaker, the listener, the time, the place, etc.
 
+**Defining pragmatics for your new language involves understanding and specifying how context influences the interpretation of meaning.** 
+
+*Here are some steps you might consider:*
+
+1. **Speech Acts**: Decide how your language will express actions performed via speech, such as requests, promises, apologies, etc. This involves understanding the intent behind the utterance and the effect it has on the listener.
+
+2. **Contextual Factors**: Define how various factors like the speaker, the listener, the time, the place, etc., influence the interpretation of an utterance. For example, the phrase "Can you pass the salt?" is technically a question, but in a dining context, it's understood as a request.
+
+3. **Implicature**: Decide how your language will handle implied meanings that are not explicitly stated. For example, the response "I have to work" to the question "Will you come to the party?" implies a negative response.
+
+4. **Politeness and Formality Levels**: Define how your language expresses different levels of politeness or formality. This could be through specific words, verb forms, sentence structures, etc.
+
+5. **Non-Verbal Communication**: While this might not apply to a written language, in spoken languages, non-verbal cues like tone of voice, facial expressions, and body language play a crucial role in pragmatics.
+
 **Ambiguity Resolution:** Define how ambiguities in meaning should be resolved. This could involve defining rules for choosing between multiple possible meanings, or it could involve allowing the ambiguity to remain.
 
 ## **Create a Dictionary**: 
