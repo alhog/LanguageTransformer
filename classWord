@@ -1,0 +1,23 @@
+class Word:
+    def __init__(self, text):
+        # Store the text of the word
+        self.text = text
+
+    def is_valid(self):
+        # Check if the word is valid according to the language's rules
+        return len(self.text) >= 1 and len(self.text) <= 10
+
+    def get_part_of_speech(self):
+        # Determine the part of speech of the word
+        # This is a placeholder and should be replaced with your own logic
+        return 'noun'
+
+    def get_morphology(self):
+        # Determine the morphology of the word
+        # This is a placeholder and should be replaced with your own logic
+        return 'singular'
+
+    def get_pronunciation(self):
+        # Determine the pronunciation of the word
+        # This is a placeholder and should be replaced with your own logic
+        return self.text
