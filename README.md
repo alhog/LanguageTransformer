@@ -64,6 +64,16 @@ The syntax of a language defines the set of rules that specify how words, phrase
 ## **Define the Semantics**: 
 The semantics of a language define the meaning of words, phrases, and sentences. This includes things like the definition of words, the meaning of different grammatical structures, and the way that context can change the meaning of a sentence.
 
+**Word Meanings:** Define what each word in your language means. This could be a direct translation into another language, or it could be a description of the concept that the word represents.
+
+**Phrase Meanings:** Define what each type of phrase in your language means. This could involve defining how the meanings of individual words combine to form the meaning of the phrase.
+
+**Sentence Meanings:** Define what each type of sentence in your language means. This could involve defining how the meanings of individual phrases combine to form the meaning of the sentence.
+
+**Pragmatics:** Define how context can change the meaning of a word, phrase, or sentence. This could involve things like how the meaning can change based on the speaker, the listener, the time, the place, etc.
+
+**Ambiguity Resolution:** Define how ambiguities in meaning should be resolved. This could involve defining rules for choosing between multiple possible meanings, or it could involve allowing the ambiguity to remain.
+
 ## **Create a Dictionary**: 
 A dictionary is a collection of words and their definitions. In the case of a new language, you would need to create a new dictionary that includes all of the words in your language and their definitions.
 
