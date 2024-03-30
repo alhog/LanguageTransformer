@@ -66,6 +66,18 @@ The semantics of a language define the meaning of words, phrases, and sentences.
 
 **Word Meanings:** Define what each word in your language means. This could be a direct translation into another language, or it could be a description of the concept that the word represents.
 
+**Defining word meanings is a crucial part of creating the semantics of your new language.** 
+
+*Here are some steps you might consider:*
+
+1. **Create a Lexicon**: A lexicon is a collection of words and their meanings. For each word in your language, you would need to define its meaning. This could be a direct translation into another language, or it could be a description of the concept that the word represents.
+
+2. **Define Word Classes**: Words can be categorized into classes (or parts of speech) based on their function in a sentence, such as nouns, verbs, adjectives, etc. The meaning of a word can often depend on its class.
+
+3. **Handle Polysemy and Homonymy**: Some words may have multiple meanings (polysemy), or share their form with words of different meanings (homonymy). You'll need to decide how to handle these cases in your language.
+
+4. **Consider Cultural and Contextual Factors**: The meaning of a word can often depend on cultural or contextual factors. You'll need to decide how to handle these cases in your language.
+
 **Phrase Meanings:** Define what each type of phrase in your language means. This could involve defining how the meanings of individual words combine to form the meaning of the phrase.
 
 **Sentence Meanings:** Define what each type of sentence in your language means. This could involve defining how the meanings of individual phrases combine to form the meaning of the sentence.
