@@ -1,0 +1,27 @@
+class Pragmatics:
+    def __init__(self):
+        # Initialize an empty dictionary to store the speech acts
+        self.speech_acts = {}
+
+    def add_speech_act(self, utterance, intent):
+        # Add a speech act to the dictionary
+        self.speech_acts[utterance] = intent
+
+    def get_intent(self, utterance):
+        # Get the intent of an utterance
+        return self.speech_acts.get(utterance, "Unknown intent")
+
+    def interpret_context(self, context):
+        # Interpret the contextual factors of an utterance
+        # This is a placeholder and should be replaced with your own logic
+        return context
+
+    def interpret_implicature(self, utterance):
+        # Interpret the implicature of an utterance
+        # This is a placeholder and should be replaced with your own logic
+        return utterance
+
+    def interpret_politeness(self, utterance):
+        # Interpret the politeness level of an utterance
+        # This is a placeholder and should be replaced with your own logic
+        return 'neutral'
