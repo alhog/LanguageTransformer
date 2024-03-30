@@ -1,4 +1,4 @@
-# LanguageTransformer
+# Language Transformer
 
 Defining a new language is a complex task that involves several steps. Here's a high-level overview of the process:
 
@@ -233,6 +233,18 @@ A grammar is a set of rules that specify how words and phrases can be combined t
 4. **Semantic Analysis**: Once you have a parse tree, you can perform semantic analysis to determine the meaning of the sentence. This involves applying your semantic rules to the parse tree.
 
 **Handle Ambiguity:** Some sentences may have multiple valid parse trees according to the grammar rules. You’ll need to decide how to handle these cases. This could involve defining rules for choosing between multiple possible parse trees, or it could involve allowing the ambiguity to remain.
+
+**Handling ambiguity in accordance to grammar rules is a key aspect of creating a parsing system for your new language. Ambiguity in language can occur at various levels, including word level (lexical ambiguity), phrase level, sentence level (syntactic ambiguity), and even at the discourse level.** 
+
+*Here are some steps you might consider:*
+
+1. **Lexical Ambiguity Resolution**: If a word has multiple meanings, you'll need to decide how to choose the correct meaning based on context. This could involve using the surrounding words, the overall topic of the conversation, or other factors.
+
+2. **Syntactic Ambiguity Resolution**: If a sentence or phrase can be parsed in multiple ways, you'll need to decide how to choose the correct parsing. This could involve using the surrounding sentences, the overall structure of the text, or other factors.
+
+3. **Anaphora Resolution**: Anaphora is when a word (like "he" or "it") refers back to another word or phrase. You'll need to decide how to determine what each anaphoric word refers to.
+
+4. **Ellipsis Resolution**: Ellipsis is when a word or phrase is left out because it can be inferred from context. You'll need to decide how to infer the missing words or phrases.
 
 **Test and Refine:** Once you have defined your grammar and created your parsing system, you will need to test it to make sure it works as expected. This could involve parsing a variety of sentences and checking that the parse trees match your expectations. Based on your testing, you may need to refine your grammar rules or your parsing system.
 
