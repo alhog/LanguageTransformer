@@ -198,6 +198,18 @@ A dictionary is a collection of words and their definitions. In the case of a ne
 ## **Create a Grammar**: 
 A grammar is a set of rules that specify how words and phrases can be combined to form sentences. In the case of a new language, you would need to create a new grammar that includes all of the grammatical rules of your language.
 
+**Creating a grammar system for your new language is a complex task that involves several steps.** 
+
+*Here’s a high-level overview of the process:*
+
+**Define the Grammar Rules:** The grammar of a language defines the set of rules that specify how words and phrases should be structured to form valid sentences. This includes things like the order of words in a sentence, the use of punctuation, and the structure of complex phrases.
+
+**Create a Parsing System:** A parsing system is used to analyze a sentence and determine its structure according to the grammar rules. This could involve creating a parse tree that represents the structure of the sentence.
+
+**Handle Ambiguity:** Some sentences may have multiple valid parse trees according to the grammar rules. You’ll need to decide how to handle these cases. This could involve defining rules for choosing between multiple possible parse trees, or it could involve allowing the ambiguity to remain.
+
+**Test and Refine:** Once you have defined your grammar and created your parsing system, you will need to test it to make sure it works as expected. This could involve parsing a variety of sentences and checking that the parse trees match your expectations. Based on your testing, you may need to refine your grammar rules or your parsing system.
+
 ## **Develop a Translation System**: 
 If you want your language to be usable, you will need to develop a system for translating between your new language and other existing languages. This could involve creating a bilingual dictionary, developing machine learning models for translation, or some combination of the two.
 
