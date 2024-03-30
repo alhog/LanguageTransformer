@@ -1,0 +1,51 @@
+# grammar_rules.py
+
+class GrammarRules:
+    def __init__(self):
+        # Initialize grammar rules (you can load predefined rules or create custom ones)
+        self.rules = {
+            "word_order": "SVO",  # Example: Subject-Verb-Object
+            "tense_conjugation": {"eat": {"present": "eats", "past": "ate"}},
+            # Add more rules as needed
+        }
+
+    def apply_grammar_rules(self, sentence):
+        """
+        Apply grammar rules to modify a sentence.
+
+        Args:
+            sentence (str): Input sentence.
+
+        Returns:
+            str: Modified sentence according to grammar rules.
+        """
+        # Example: Implement word order adjustments, tense changes, etc.
+        modified_sentence = self.apply_word_order(sentence)
+        modified_sentence = self.apply_tense_conjugation(modified_sentence)
+        return modified_sentence
+
+    def apply_word_order(self, sentence):
+        # Implement logic to adjust word order based on rules
+        # Example: Convert VSO to SVO
+        if self.rules.get("word_order") == "VSO":
+            # Swap verb and subject positions
+            # (Assuming simple sentences for illustration)
+            words = sentence.split()
+            if len(words) >= 3:
+                subject, verb, obj = words[0], words[1], ' '.join(words[2:])
+                return f"{verb} {subject} {obj}"
+        return sentence
+
+    def apply_tense_conjugation(self, sentence):
+        # Implement tense changes based on verb conjugation rules
+        # Example: Convert present tense to past tense
+        for verb, conjugations in self.rules.get("tense_conjugation", {}).items():
+            sentence = sentence.replace(conjugations["present"], conjugations["past"])
+        return sentence
+
+# Example usage:
+if __name__ == "__main__":
+    grammar_rules = GrammarRules()
+    input_sentence = "She eats an apple."
+    modified_sentence = grammar_rules.apply_grammar_rules(input_sentence)
+    print(f"Modified sentence: {modified_sentence}")
