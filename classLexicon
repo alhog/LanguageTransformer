@@ -1,0 +1,12 @@
+class Lexicon:
+    def __init__(self):
+        # Initialize an empty dictionary to store the words and their meanings
+        self.words = {}
+
+    def add_word(self, word, meaning):
+        # Add a word and its meaning to the lexicon
+        self.words[word] = meaning
+
+    def get_meaning(self, word):
+        # Get the meaning of a word
+        return self.words.get(word, "Unknown word")
