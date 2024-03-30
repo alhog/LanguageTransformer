@@ -204,6 +204,20 @@ A grammar is a set of rules that specify how words and phrases can be combined t
 
 **Define the Grammar Rules:** The grammar of a language defines the set of rules that specify how words and phrases should be structured to form valid sentences. This includes things like the order of words in a sentence, the use of punctuation, and the structure of complex phrases.
 
+*Defining the grammar rules for your new language involves several considerations:*
+
+1. **Word Order**: Decide on the basic word order for your sentences. Common types are Subject-Verb-Object (SVO) like in English, Subject-Object-Verb (SOV) like in Japanese, or Verb-Subject-Object (VSO) like in Irish.
+
+2. **Morphology**: Decide on the rules for how words can change form to indicate different meanings. This could involve things like adding prefixes or suffixes, changing the word order, or altering the word itself.
+
+3. **Agreement**: Decide on the rules for agreement between subjects and verbs, adjectives and nouns, etc. For example, in English, subjects and verbs must agree in number (e.g., "he runs" vs. "they run").
+
+4. **Tense, Aspect, and Mood**: Decide on the rules for how verbs express tense (past, present, future), aspect (completed action, ongoing action, etc.), and mood (indicative, imperative, subjunctive, etc.).
+
+5. **Negation**: Decide on the rules for forming negative sentences. This could involve adding a word like "not", changing the verb form, etc.
+
+6. **Questions**: Decide on the rules for forming questions. This could involve changing the word order, using a different verb form, etc.
+
 **Create a Parsing System:** A parsing system is used to analyze a sentence and determine its structure according to the grammar rules. This could involve creating a parse tree that represents the structure of the sentence.
 
 **Handle Ambiguity:** Some sentences may have multiple valid parse trees according to the grammar rules. You’ll need to decide how to handle these cases. This could involve defining rules for choosing between multiple possible parse trees, or it could involve allowing the ambiguity to remain.
